@@ -1,0 +1,130 @@
+body {
+    background-color: #AFECD6;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#App{
+    padding-top: 7vh;
+}
+    
+input {
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #F0F0F0;
+    padding: 15px;
+    margin-left: 1vw;
+    margin-right: 5px;
+}
+
+
+h2 {
+    font-weight: 500;
+    line-height: 0.7;
+}
+
+#translation {
+    font-weight: 500;
+}
+
+#score {
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #f8c8dc76;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+
+    font-size: 0.75rem;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+    width: auto;
+}
+
+.borders {
+    position: relative;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background: rgb(252, 252, 252);
+    width: 85vw;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.head {
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+    width: fit-content;
+}
+
+.label {
+    display: inline-block;
+    width: 80px;
+}
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 115px;
+    padding: 15px;
+    border: 0;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #F8C8DC;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 380px) {
+    #score {
+        right: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    #App {
+        padding-top: 0;
+    }
+
+    .item {
+        margin: 2vw;
+    }
+
+    input {
+        width: 20vw;
+    }
+    
+    #score {
+        padding: 15px;
+    }
+}
