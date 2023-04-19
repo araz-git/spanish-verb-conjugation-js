@@ -1,4 +1,4 @@
-export default ['платить',
+const  regVerbsTranslations = ['платить',
 'взяться',
 'прервать',
 'объятие',
@@ -935,4 +935,6 @@ export default ['платить',
 'связывать',
 'побуждать',
 'жить',
-'нырять']
+'нырять'];
+
+export default regVerbsTranslations;
